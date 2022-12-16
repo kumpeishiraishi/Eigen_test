@@ -1,0 +1,7 @@
+* Test files for Eigen
+These files are used to test performance of [[https://eigen.tuxfamily.org][Eigen]].
+
+=result.dat= in each directory contains the elapsed time of solving the eigenvalue problem.
+All calculations are performed on the [[https://www.cc.u-tokyo.ac.jp/en/supercomputer/obcx/system.php][Oakbridge-CX]], a supercomputer system at Information Technology Center, the University of Tokyo.
+
+=plot.py= is used to plot the results for [[https://gist.github.com/kumpeishiraishi/d8ad82c08b0d302ad6023343724bbe42][a gist]].
